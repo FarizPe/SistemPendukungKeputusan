@@ -1,5 +1,5 @@
 # SPK
-Sistem pendukung keputusan dengan metode Topsis &amp; SAW.
+Sistem pendukung keputusan dengan metode Topsis dan SAW.
 
  1. Buat database
  2. Import file database.sql
