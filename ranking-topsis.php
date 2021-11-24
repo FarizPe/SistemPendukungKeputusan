@@ -65,7 +65,7 @@ foreach($kriterias as $kriteria):
 	endforeach;
 endforeach;
 
-/* >>> STEP 3 ===================================
+/* >>> STEP 2 ===================================
  * Matriks Ternormalisasi (R)
  * ------------------------------------------- */
 $matriks_r = array();
@@ -87,7 +87,7 @@ foreach($matriks_x as $id_kriteria => $nilai_kambings):
 endforeach;
 
 
-/* >>> STEP 4 ===================================
+/* >>> STEP 3 ===================================
  * Matriks Y
  * ------------------------------------------- */
 $matriks_y = array();
@@ -105,7 +105,7 @@ foreach($kriterias as $kriteria):
 endforeach;
 
 
-/* >>> STEP 5 ================================
+/* >>> STEP 4 ================================
  * Solusi Ideal Positif & Negarif
  * ------------------------------------------- */
 $solusi_ideal_positif = array();
@@ -132,7 +132,7 @@ foreach($kriterias as $kriteria):
 endforeach;
 
 
-/* >>> STEP 6 ================================
+/* >>> STEP 5 ================================
  * Jarak Ideal Positif & Negatif
  * ------------------------------------------- */
 $jarak_ideal_positif = array();
@@ -165,7 +165,7 @@ foreach($kambings as $kambing):
 endforeach;
 
 
-/* >>> STEP 7 ================================
+/* >>> STEP 6 ================================
  * Perangkingan
  * ------------------------------------------- */
 $ranks = array();
